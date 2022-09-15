@@ -1,35 +1,36 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "evolutionequipments",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Evolution Equipments",
+  "description": "Bloodbath and upgrade your equipments",
   "authors": [
-    "Me!"
+    "Japack_233",
+    "Lee8950"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://space.bilibili.com/5828671/",
+    "sources": ""
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/evolutionequipments/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.japack.evolutionequipments.evolutionequipments"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "evolutionequipments.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.9",
     "fabric-api": "*",
-    "minecraft": "~1.19",
+    "minecraft": "~1.17.1",
     "java": ">=17"
   },
   "suggests": {

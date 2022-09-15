@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " I ",
+        "IRI",
+        "IRI"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "evolutionequipments:shield_battery",
+        "count": 1
+    }
+}
